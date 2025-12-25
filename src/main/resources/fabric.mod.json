@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "flashbackinventory",
+  "version": "0.1.0",
+  "name": "Flashback - Inventory Addon",
+  "description": "Adds player inventory, ender chest and opened container data to Flashback snapshots (companion for Flashback mod).",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.flashbackinventory.FlashbackInventoryAddon"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "flashback": "*"
+  }
+}
